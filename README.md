@@ -4,7 +4,7 @@
 ##前言
 这是一款旨在将rest API 自动 转换成retrofit Service 的一个工具；
 
-正如大家所见：**RestAPI 与 RetrofitService  有很多共同点**， 在模块化之后，可以直接通过Restapi按照约定的规则
+正如大家所见：**RestAPI 与 RetrofitService  有很多共同点**， 在模块化之后，可以直接通过Restapi按照约定的规则直接生成Retrofit Service
 
 以下是DomainAPI ， 是restAPI提供给客户端访问数据的接口，使用HTTP协议
 
@@ -67,4 +67,6 @@ MainService是主服务入口，输出方法中两个参数分别是输入路径
 之所以开发这样一个小工具，是因为我们的项目用到了Retrofit；
 
 由于文件非常多，而本人又比较懒，就想着这样一劳永逸的方法了，本人测试可用，代码简洁易懂，如果各位业务有变化，可以基于此进行简单二次开发，我开发这个程序只用了二天的时间，我相信二次开发的工作量也不大。
+
+
 
