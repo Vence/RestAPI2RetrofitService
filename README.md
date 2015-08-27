@@ -4,7 +4,7 @@
 ##前言
 这是一款旨在将rest API 自动 转换成retrofit Service 的一个工具；
 
-正如大家所见：**RestAPI 与 RetrofitService  有很多共同点**， 在模块化之后，可以直接通过Restapi按照约定的制定规则
+正如大家所见：**RestAPI 与 RetrofitService  有很多共同点**， 在模块化之后，可以直接通过Restapi按照约定的规则
 
 以下是DomainAPI ， 是restAPI提供给客户端访问数据的接口，使用HTTP协议
 
